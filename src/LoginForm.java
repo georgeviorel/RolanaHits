@@ -53,7 +53,7 @@ public class LoginForm extends JFrame{
         if (user != null) {
             JOptionPane.showMessageDialog(this,
                     "You are now logged in!",
-                    "Welcome",
+                    "Welcome!",
                     JOptionPane.OK_OPTION);
             dispose();
             UserDashboard userDashboard = new UserDashboard(user);
