@@ -44,7 +44,7 @@ public class LoginForm extends JFrame{
         if (email.isEmpty() || password.isEmpty()) {
             JOptionPane.showMessageDialog(this,
                     "Please enter all fields!",
-                    "Error! try again!",
+                    "Error! Please try again!",
                     JOptionPane.ERROR_MESSAGE);
             return;
         }
