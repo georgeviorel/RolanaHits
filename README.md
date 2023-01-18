@@ -1,0 +1,1 @@
+Aplicatie desktop pentru login la un server web.
